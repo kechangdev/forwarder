@@ -1,15 +1,9 @@
 # kechangdev/t2t
 该容器可以根据环境变量实现 TCP 转发...
 
-# 构建镜像
-
-```bash
-docker build -t kechangdev/t2t:latest .
-
-```
-
-> 这会根据 Dockerfile 构建镜像，并命名为 kechangdev/t2t:latest。
-> 
+# 环境变量
+- `INBOUND_PORT=25565`: 容器内脚本监听在 25565
+- `FORWARD_TARGET="100.82.235.46:25565"`: 把所有请求转发到该IP+端口
 
 # 运行容器
 
@@ -25,6 +19,3 @@ docker run -d \
     kechangdev/t2t:latest
 
 ```
-# 环境变量
-- `INBOUND_PORT=25565`: 容器内脚本监听在 25565
-- `FORWARD_TARGET="100.82.235.46:25565"`: 把所有请求转发到该IP+端口
