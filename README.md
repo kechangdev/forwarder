@@ -29,4 +29,4 @@ docker run -d \
     -e INBOUND_PORT=25565 \
     -e FORWARD_TARGET="100.82.235.46:25565" \
     -e FORWARD_PROTOCOL=both \
-    kechangdev/t2t:latest
+    kechangdev/forwarder:latest
