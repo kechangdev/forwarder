@@ -35,4 +35,4 @@ docker run -d \
     kechangdev/forwarder:latest
 ```
 
-<img src="https://github.com/kechangdev/forwarder/blob/main/Preview.jpeg?raw=true" alt="IMG_1231">
+<img src="https://github.com/kechangdev/forwarder/blob/main/Preview.jpeg?raw=true" alt="Preview" width="600">
