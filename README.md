@@ -25,7 +25,7 @@
 
 ```bash
 docker run -d \
-    --name tcp_forward \
+    --name forward_25565 \
     --restart=unless-stopped \
     -p 25565:25565/tcp \
     -p 25565:25565/udp \
