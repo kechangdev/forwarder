@@ -34,5 +34,6 @@ docker run -d \
     -e FORWARD_PROTOCOL=both \
     kechangdev/forwarder:latest
 ```
-
-<img src="https://github.com/kechangdev/forwarder/blob/main/Preview.jpeg?raw=true" alt="Preview" width="600">
+<p align="center">
+  <img src="https://github.com/kechangdev/forwarder/blob/main/Preview.jpeg?raw=true" alt="Preview" width="600">
+</p>
