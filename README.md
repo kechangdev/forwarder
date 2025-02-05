@@ -33,4 +33,6 @@ docker run -d \
     -e FORWARD_TARGET="100.82.235.46:25565" \
     -e FORWARD_PROTOCOL=both \
     kechangdev/forwarder:latest
-![](https://github.com/kechangdev/forwarder/blob/main/Preview.jpeg?raw=true)
+```
+
+<img src="https://github.com/kechangdev/forwarder/blob/main/Preview.jpeg?raw=true" alt="IMG_1231">
