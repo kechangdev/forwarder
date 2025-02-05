@@ -1,5 +1,8 @@
 # kechangdev/forwarder
 
+[![Docker Pulls](https://img.shields.io/docker/pulls/kechangdev/s2s?style=flat-square)](https://hub.docker.com/r/kechangdev/forwarder)
+
+
 该项目是一个通用的 TCP/UDP 转发器，可以满足各种网络层/应用层协议的端口转发需求（例如 HTTP、SOCKS5、私有协议等均可）。
 
 ## 功能
